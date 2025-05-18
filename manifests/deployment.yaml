@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: cicd
-        image: docker.io/your-docker-username/cicd:3e03ff8716ca22935d6648be434021ffa326fba7
+        image: docker.io/tudt1/cicd:d9bb745053318c6307acc1b41d754384a7adf8f1
         ports:
         - containerPort: 3000
 ---
