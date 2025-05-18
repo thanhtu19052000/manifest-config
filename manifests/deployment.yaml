@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: cicd
-        image: docker.io/tudt1/cicd:latest  # Sẽ được cập nhật tự động
+        image: docker.io/your-docker-username/cicd:2493ba371602d2aa7bc0e2ff34a289c6c9b390d4
         ports:
         - containerPort: 3000
 ---
